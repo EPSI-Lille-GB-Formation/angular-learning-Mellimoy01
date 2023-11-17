@@ -1,0 +1,14 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.json", //il va chercher le fichier de config tsconfig.json
+  "compilerOptions": {//permet de dire ou va sortir tout les ficihiers de la config
+    "outDir": "../../out-tsc/app",
+    "types": []//sortir et lire les ty^pe de fichier
+  },
+  "files": [//les fichier de poitn d'entree et la il est actuellement dans src et se nomme main.ts
+    "src/main.ts"
+  ],
+  "include": [//va detetcter quels seront les fichier modifier pour les recompiler
+    "src/**/*.d.ts"
+  ]
+}
